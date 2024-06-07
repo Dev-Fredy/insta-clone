@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="assets/images/insta-favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/83ccd457ed.js" crossorigin="anonymous"></script>
+  <title>Instagram</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-wrapper">
+      <img src="assets/images/instagram_logo.png" alt="Instagram logo" class="logo" />
+      <input type="text" class="search" placeholder="Search" />
+      <div class="nav-items">
+        <img src="assets/images/nav-items/home.PNG" class="icons" alt="Home Icon" />
+        <img src="assets/images/nav-items/messenger.PNG" class="icons" alt="Messenger Icon" />
+        <img src="assets/images/nav-items/add.PNG" class="icons" alt="Add Icon" />
+        <img src="assets/images/nav-items/explore.PNG" class="icons" alt="Explore Icon" />
+        <img src="assets/images/nav-items/like.PNG" class="icons" alt="Like Icon" />
+        <img src="assets/images/nav-items/lelei.enc" class="icons user-account" alt="User Profile" />
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar-mobile-top">
+    <div class="navbar-wrapper">
+      <img src="assets/images/instagram_logo.png" alt="Instagram logo" class="logo" />
+      <input type="text" class="search" placeholder="Search" />
+      <div class="nav-items">
+
+        <img src="assets/images/nav-items/add.PNG" class="icons" alt="Add Icon" />
+        <img src="assets/images/nav-items/like.PNG" class="icons" alt="Like Icon" />
+        <img src="assets/images/nav-items/messenger.PNG" class="icons" alt="Messenger Icon" />
+
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar-mobile-bottom">
+    <div class="navbar-wrapper">
+      <div class="nav-items">
+        <img src="assets/images/nav-items/home.PNG" class="icons" alt="Home Icon" />
+        <img src="assets/images/nav-items/send.PNG" class="icons" alt="Add Icon" />
+        <img src="assets/images/nav-items/explore.PNG" class="icons" alt="Explore Icon" />
+        <img src="assets/images/nav-items/comment.PNG" class="icons" alt="Like Icon" />
+        <img src="assets/images/nav-items/user.png" class="icons" alt="Like Icon" />
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="wrapper">
+      <div class="left-col">
+        <div class="status-wrapper">
+          <button class="story--scroll" id="scroll-left" onclick="scrollHorizontal(1)"><i
+              class="fas fa-chevron-left"></i></button>
+          <button class="story--scroll" id="scroll-right" onclick="scrollHorizontal(-1)"><i
+              class="fas fa-chevron-right"></i></button>
+          <div class="stories">
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/nav-items/lelei.enc" />
+              </div>
+              <p class="username">og.lelei</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/profile/yamahar6.png" />
+              </div>
+              <p class="username">yamaha-bikes</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/follow-img/speed.png" />
+              </div>
+              <p class="username">ishowspeed</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/profile/honda.png" />
+              </div>
+              <p class="username">honda</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/profile/bmw.png" />
+              </div>
+              <p class="username">bmw</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/follow-img/mind-psychology.png" />
+              </div>
+              <p class="username">mind-psychology</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/profile/Messi.png" />
+              </div>
+              <p class="username">leomessi</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/post/ducati.png" />
+              </div>
+              <p class="username">ducati</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="assets/images/follow-img/ksi.png" />
+              </div>
+              <p class="username">ksi</p>
+            </div>
+          </div>
+        </div>
+        <!-- Posts------------------------------------------- ---------------------- -->
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/honda.png" alt="Profile Image" />
+              </div>
+              <p class="username">Honda</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/cbr.png" class="post-image" alt="Geeks for Geeks post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p>Liked by <b>gilly</b> and <b>4,635 others</b></p>
+            <p class="description">
+              <span>@ducati</span>*watch this* 😯 😯 😯 😯 😯
+            </p>
+            <p class="no-comments">View all 64 comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Ducati-logo.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">Ducati</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/ducati.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">4,316 likes</p>
+            <p class="description">
+              <span>kurzgesagt</span>Our best model yet! <strong>@honda</strong> can't relate!<br />
+              May be they are getting old! <br />They just don't want the smoke<br />🔗 Get this bike
+            </p>
+            <p class="no-comments">View all 1M comments</p>
+            <p class="post-time">1 WEEK AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Messi.png" alt="Profile Image" />
+              </div>
+              <p class="username">leomessi</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/Messi.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">1.6M likes</p>
+            <p class="description">
+              <span>messi</span>🌟 Grateful for every moment on the pitch and every bit of support from fans around the world. The journey continues, and the best is yet to come! 💪⚽️ #Football #Family #Gratitude #AlwaysForward
+            </p>
+            <p class="no-comments">View all 10M comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/status-4.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">fcbarcelona</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/fcb.jpeg" class="post-image" alt="post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">5.4M likes</p>
+            <p class="description">
+              <span>fcb</span>🔵🔴 The passion of the Champions League drives us forward! Together, we fight for every victory and cherish every moment. Thank you, Culés, for your unwavering support. Let's continue this journey together! 💪🔥 #ForçaBarça #UCL #ChampionsLeague #ViscaBarça
+            </p>
+            <p class="no-comments">View all 575K comments</p>
+            <p class="post-time">2 WEEKS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/honda.png" alt="Profile Image" />
+              </div>
+              <p class="username">Honda</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/cbr.png" class="post-image" alt="Geeks for Geeks post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p>Liked by <b>gilly</b> and <b>4,635 others</b></p>
+            <p class="description">
+              <span>@ducati</span>*watch this* 😯 😯 😯 😯 😯
+            </p>
+            <p class="no-comments">View all 64 comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Ducati-logo.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">Ducati</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/ducati.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">4,316 likes</p>
+            <p class="description">
+              <span>kurzgesagt</span>Our best model yet! <strong>@honda</strong> can't relate!<br />
+              May be they are getting old! <br />They just don't want the smoke<br />🔗 Get this bike
+            </p>
+            <p class="no-comments">View all 1M comments</p>
+            <p class="post-time">1 WEEK AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Messi.png" alt="Profile Image" />
+              </div>
+              <p class="username">leomessi</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/Messi.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">1.6M likes</p>
+            <p class="description">
+              <span>messi</span>🌟 Grateful for every moment on the pitch and every bit of support from fans around the world. The journey continues, and the best is yet to come! 💪⚽️ #Football #Family #Gratitude #AlwaysForward
+            </p>
+            <p class="no-comments">View all 10M comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/status-4.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">fcbarcelona</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/fcb.jpeg" class="post-image" alt="post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">5.4M likes</p>
+            <p class="description">
+              <span>fcb</span>🔵🔴 The passion of the Champions League drives us forward! Together, we fight for every victory and cherish every moment. Thank you, Culés, for your unwavering support. Let's continue this journey together! 💪🔥 #ForçaBarça #UCL #ChampionsLeague #ViscaBarça
+            </p>
+            <p class="no-comments">View all 575K comments</p>
+            <p class="post-time">2 WEEKS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/honda.png" alt="Profile Image" />
+              </div>
+              <p class="username">Honda</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/cbr.png" class="post-image" alt="Geeks for Geeks post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p>Liked by <b>gilly</b> and <b>4,635 others</b></p>
+            <p class="description">
+              <span>@ducati</span>*watch this* 😯 😯 😯 😯 😯
+            </p>
+            <p class="no-comments">View all 64 comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Ducati-logo.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">Ducati</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/ducati.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">4,316 likes</p>
+            <p class="description">
+              <span>kurzgesagt</span>Our best model yet! <strong>@honda</strong> can't relate!<br />
+              May be they are getting old! <br />They just don't want the smoke<br />🔗 Get this bike
+            </p>
+            <p class="no-comments">View all 1M comments</p>
+            <p class="post-time">1 WEEK AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/Messi.png" alt="Profile Image" />
+              </div>
+              <p class="username">leomessi</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/Messi.png" class="post-image" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">1.6M likes</p>
+            <p class="description">
+              <span>messi</span>🌟 Grateful for every moment on the pitch and every bit of support from fans around the world. The journey continues, and the best is yet to come! 💪⚽️ #Football #Family #Gratitude #AlwaysForward
+            </p>
+            <p class="no-comments">View all 10M comments</p>
+            <p class="post-time">6 DAYS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="assets/images/profile/status-4.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">fcbarcelona</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+          <img src="assets/images/post/fcb.jpeg" class="post-image" alt="post" />
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <p class="likes">5.4M likes</p>
+            <p class="description">
+              <span>fcb</span>🔵🔴 The passion of the Champions League drives us forward! Together, we fight for every victory and cherish every moment. Thank you, Culés, for your unwavering support. Let's continue this journey together! 💪🔥 #ForçaBarça #UCL #ChampionsLeague #ViscaBarça
+            </p>
+            <p class="no-comments">View all 575K comments</p>
+            <p class="post-time">2 WEEKS AGO</p>
+          </div>
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons" />
+            <input type="text" class="comment-box" placeholder="Add a comment..." />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-col">
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/nav-items/Messi.png" />
+          </div>
+          <div>
+            <p class="pro-user">lelei</p>
+            <p class="sub-text">Lelei</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Switch</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div>
+            <p class="suggestion-text">Suggestions for you</p>
+          </div>
+          <div class="action-div">
+            <button class="seeall-btn">See All</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/speed.png" />
+          </div>
+          <div>
+            <p class="pro-user">ishowspeed</p>
+            <p class="sug-text">Popular on Instagram&nbsp;</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/mr-beast.png" />
+          </div>
+          <div>
+            <p class="pro-user">mrbeast</p>
+            <p class="sug-text">Big on Instagram&nbsp;</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/ksi.png" />
+          </div>
+          <div>
+            <p class="pro-user">ksi</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/mind-psychology.png" />
+          </div>
+          <div>
+            <p class="pro-user">mind-psychology</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-5.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">Python</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+          
+        </div>
+        <div class="quick-links-wrapper" style="padding-top:15px;">
+          <div class="quick-link">About</div>
+          <div class="quick-link">Help</div>
+          <div class="quick-link">Press</div>
+          <div class="quick-link">API</div>
+          <div class="quick-link">Jobs</div>
+          <div class="quick-link">Privacy</div>
+          <div class="quick-link">Terms</div>
+        </div>
+        <div class="quick-links-wrapper">
+          <div class="quick-link">Locations</div>
+          <div class="quick-link">Language</div>
+        </div>
+        <div class="quick-links-wrapper" style="padding-top:10px;">
+          <div class="quick-link">@ 2024 INSTAGRAM FROM META</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let currentScroll = 0;
+    let scrollAmount = 320;
+
+    const sCont = document.querySelector(".stories")
+    const hScroll = document.querySelector(".status-wrapper")
+    const leftButton = document.querySelector("#scroll-left")
+    const rightButton = document.querySelector("#scroll-right")
+
+    let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
+    leftButton.style.opacity = '0'
+
+    function scrollHorizontal(val) {
+      currentScroll += (val * scrollAmount);
+      if (currentScroll >= 0) {
+        currentScroll = 0
+        leftButton.style.opacity = '0'
+      } else {
+        leftButton.style.opacity = '1'
+      }
+      if (currentScroll <= maxScroll) {
+        currentScroll = maxScroll
+        rightButton.style.opacity = '0'
+      } else {
+        rightButton.style.opacity = '1'
+      }
+      sCont.style.left = currentScroll + "px"
+    }
+  </script>
+</body>
+
+</html>
